@@ -7,9 +7,9 @@ header {
 .menu-section__con-div {
 	display: flex;
 	justify-content: space-between;
-	color: #fff;
 	padding-top: 40px;
 	padding-bottom: 63px;
+	color: #fff;
 }
 
 .menu-section__text-div {
@@ -31,10 +31,10 @@ header {
 
 
 .description-section__con-div {
-	color: #fff;
 	text-align: center;
 	padding-top: 63px;
 	padding-bottom: 120px;
+	color: #fff;
 }
 
 .description-section__title {

@@ -1,6 +1,7 @@
 @import 'normalize.css';
 @import 'var.css';
 @import 'header.css';
+@import 'counter.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
@@ -64,8 +65,12 @@ iframe {
 
 .container {
 	min-width: 320px;
-	max-width: 1200px;
+	max-width: 950px;
 	margin: 0 auto;
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+.menu-section__con-div {
+	max-width: 1200px;
 }
