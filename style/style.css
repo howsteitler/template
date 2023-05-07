@@ -4,6 +4,7 @@
 @import 'header.css';
 @import 'counter.css';
 @import 'question.css';
+@import 'footer.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
@@ -20,5 +21,9 @@
 }
 
 .question-section__con-div {
+	max-width: 1200px;
+}
+
+.footer-section__con-div {
 	max-width: 1200px;
 }
