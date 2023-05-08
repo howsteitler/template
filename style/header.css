@@ -15,6 +15,11 @@ header {
 	color: #fff;
 }
 
+.menu-section__logo-img {
+	width: 68px;
+	height: 68px;
+}
+
 .menu-section__text-div {
 	display: flex;
 	flex-direction: column;
