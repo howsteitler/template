@@ -52,3 +52,9 @@ footer {
 	text-align: center;
 	text-decoration: underline;
 }
+
+
+
+.add-section {
+	display: none;
+}
