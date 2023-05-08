@@ -20,6 +20,10 @@ header {
 	height: 68px;
 }
 
+.menu-section__tel-div {
+	display: none;
+}
+
 .menu-section__text-div {
 	display: flex;
 	flex-direction: column;
