@@ -92,23 +92,16 @@
 		font-size: 16px;
 	}
 
-	.counter-section__first-div,
-	.counter-section__second-div,
-	.counter-section__third-div,
-	.counter-section__fourth-div {
-		width: 180px;
-	}
-
-	.counter-section__blue-div {
+	.counter-section__circle {
 		width: 104px;
 		height: 104px;
-		border: none;
 		margin-bottom: 25px;
 	}
 
-	.counter-section__num-text {
+	.counter-section__circle:before {
 		font-size: 52px;
-		padding-top: 22px;
+		top: 22px;
+		right: 38px;
 	}
 
 	.counter-section__desc-text {
@@ -259,9 +252,13 @@
 		margin-bottom: 40px;
 	}
 
-	.counter-section__count-div {
+	.counter-section__list {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.counter-section__item {
+		width: 260px;
 	}
 
 	.counter-section__desc-text {

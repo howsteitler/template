@@ -56,11 +56,6 @@
 	position: relative;
 }
 
-.counter-section__desc-text {
-	font-weight: 500;
-	font-size: 20px;
-}
-
 .counter-section__circle:before {
 	content: counter(section, decimal);
 	counter-increment: section;
@@ -70,4 +65,9 @@
     position: absolute;
     top: 30px;
     right: 45px;
+}
+
+.counter-section__desc-text {
+	font-weight: 500;
+	font-size: 20px;
 }
