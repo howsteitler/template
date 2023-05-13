@@ -39,19 +39,13 @@
 
 
 
-.counter-section__count-div {
+.counter-section__list {
 	display: flex;
-	justify-content: space-around;
+	counter-reset: section;
+	list-style-type: none;
 }
 
-.counter-section__first-div,
-.counter-section__second-div,
-.counter-section__third-div,
-.counter-section__fourth-div {
-	width: 200px;
-}
-
-.counter-section__blue-div {
+.counter-section__circle {
 	background-color: var(--second-color);
 	width: 122px;
 	height: 122px;
@@ -59,17 +53,21 @@
 	border-radius: 50%;
 	margin: 0 auto;
 	margin-bottom: 15px;
-}
-
-.counter-section__num-text {
-	font-weight: 500;
-	font-size: 57px;
-	color: #fff;
-	padding-top: 32px;
+	position: relative;
 }
 
 .counter-section__desc-text {
 	font-weight: 500;
 	font-size: 20px;
-	white-space: pre-line;
+}
+
+.counter-section__circle:before {
+	content: counter(section, decimal);
+	counter-increment: section;
+    font-weight: 500;
+    font-size: 57px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    right: 45px;
 }
