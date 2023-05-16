@@ -255,6 +255,7 @@
 	.counter-section__list {
 		flex-direction: column;
 		align-items: center;
+		padding-left: 0;
 	}
 
 	.counter-section__item {
